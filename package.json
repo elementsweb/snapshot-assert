@@ -1,0 +1,34 @@
+{
+  "name": "@j154004/yeoman-assert",
+  "version": "1.0.0",
+  "description": "Extension of the Yeoman assertion library.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js __tests__/*",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementsweb/yeoman-assert.git"
+  },
+  "keywords": [
+    "yeoman",
+    "assert",
+    "snapshot"
+  ],
+  "author": "elementsweb",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/elementsweb/yeoman-assert/issues"
+  },
+  "homepage": "https://github.com/elementsweb/yeoman-assert#readme",
+  "dependencies": {
+    "diff": "^3.3.1",
+    "yeoman-assert": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.1.0"
+  }
+}
