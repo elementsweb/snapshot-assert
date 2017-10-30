@@ -17,14 +17,14 @@ const assert = require('@j154004/yeoman-assert');
 ```
 
 ## API
-### `fileContent`
+### `snapshotContent`
 * __filePath__ (String) Path to generated file.
 * __snapshotFilePath__ (String) Path to snapshot file.
 
 Assert that a file matches a snapshot file.
 
 ```
-assert.fileContent(
+assert.snapshotContent(
   'public/swagger.yaml',
   path.join(__dirname, 'snapshots', 'swagger.yaml')
 )
@@ -33,6 +33,6 @@ assert.fileContent(
 Snapshot files should be stored in a `snapshot` directory where your tests are run from.
 
 ## Licence
-[BSD license](/LICENSE)  Copyright (c) elements web
+[BSD license](/LICENSE)  Copyright (c) elementsweb
 
 `yeoman-assert` is licensed under BSD-2-Clause Copyright (c) Google
