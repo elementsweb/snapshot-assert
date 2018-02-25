@@ -6,6 +6,10 @@ Assertion module for Yeoman generators, include comparing file with snapshot.
 
 Extends the `yeoman-assert` module, which itself extends the native `assert` module. You only therefore need to import this assertion library to get all the functionality required for testing your Yeoman generator.
 
+You can see an example of what a failed snapshot assertion looks like below:
+
+![AssertionError for README.md:1 with expected and actual results](./docs/j154004-yeoman-assert.png)
+
 ## Install
 ```
 npm install --save-dev @j154004/yeoman-assert
@@ -14,7 +18,10 @@ npm install --save-dev @j154004/yeoman-assert
 ## Usage
 ```
 const assert = require('@j154004/yeoman-assert');
+const path = require('path');
 ```
+
+See the example generator in `/example` to see how to structure your tests and to see an example output from a failing test.
 
 ## API
 ### `snapshotContent`

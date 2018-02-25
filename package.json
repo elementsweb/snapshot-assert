@@ -1,11 +1,11 @@
 {
   "name": "@j154004/yeoman-assert",
-  "version": "1.0.0",
-  "description": "Extension of the Yeoman assertion library.",
+  "version": "1.0.1",
+  "description": "Extension of the Yeoman assertion library with snapshot assertion.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js __tests__/*",
-    "test": "jest"
+    "test": "./node_modules/.bin/jest __tests__"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-google": "^0.9.1",
-    "jest": "^21.1.0"
+    "jest": "^22.4.2"
   }
 }
